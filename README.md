@@ -1,4 +1,4 @@
-# README - AWS Elastic Beanstalk Deployment Guide
+## README - AWS Elastic Beanstalk Deployment Guide
 
 ## Creative Website - Node.js Application
 
@@ -142,7 +142,7 @@ Monitor your application in AWS Console:
 4. Enable Elastic Beanstalk monitoring
 5. Use IAM roles for application permissions
 
-### Next Steps
+### Further Reading
 
 1. Customize the website in `public/index.html`
 2. Add more API endpoints in `app.js`

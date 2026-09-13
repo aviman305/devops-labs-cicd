@@ -19,7 +19,9 @@ artifacts:
     - app.js
     - package.json
     - package-lock.json
+    - appspec.yml
     - public/**/*
     - scripts/**/*
     - .ebextensions/**/*
+    - node_modules/**/*
   discard-paths: no
