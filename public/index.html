@@ -160,6 +160,22 @@
             margin-top: 60px;
         }
 
+        .build-banner {
+            background: #28a745;
+            color: white;
+            text-align: center;
+            padding: 12px 20px;
+            font-size: 15px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        .build-banner span {
+            margin: 0 15px;
+            opacity: 0.85;
+            font-size: 13px;
+        }
+
         .server-info {
             background: rgba(255, 255, 255, 0.1);
             border: 1px solid rgba(255, 255, 255, 0.2);
@@ -220,6 +236,13 @@
             </div>
         </div>
     </header>
+
+    <div class="build-banner">
+        ✅ Production build completed successfully
+        <span>| Pipeline: CodePipeline</span>
+        <span>| Build: CodeBuild</span>
+        <span>| Deploy: Elastic Beanstalk</span>
+    </div>
 
     <section class="hero">
         <div class="container">
